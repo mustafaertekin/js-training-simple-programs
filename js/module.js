@@ -54,18 +54,3 @@ function analyseUrl(pUrl) {
     }
     return r;
 }
-
-
-
-
-/**
- * This function creates an array of all possible letter combinations of a given word.
- *
- */
-function populateWord(pString){
-    let result = [];
-    //...
-    return result;
-}
-
-
