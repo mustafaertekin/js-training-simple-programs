@@ -15,7 +15,7 @@ describe('Test Suite - Test your own functions with edge cases', () => {
     });
       
     
-    it('An url will be parsed an return all the parts in an object.', function(){
+    it('Parse from URL: http://localhost:8080/api?sort=ASC', function(){
         let analysis = analyseUrl('http://localhost:8080/api?sort=ASC');
         
         analysis.schema.should.be.equal('http');
